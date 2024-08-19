@@ -7,6 +7,8 @@ import About from "./components/about/About";
 import Footer from "./components/footer/Footer"
 
 
+import OurTeam from "./components/ourteam/OurTeam";
+
 function App() {
   
   const [loading, setLoading] = useState(true);
@@ -26,6 +28,7 @@ function App() {
         {/* <Hero/> */}
         <About/>
       </div>
+      <OurTeam></OurTeam>
      <Footer />
     </>
   );
