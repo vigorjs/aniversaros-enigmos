@@ -2,13 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-
-import Hero from "./components/hero/Hero";
+import Quote from "./components/quotes/Quote";
 
 function App() {
   // const [count, setCount] = useState(0)
 
-  return <>{/* <Hero /> */}</>;
+  return (
+    <>
+      <Quote />
+    </>
+  );
 }
 
 export default App;

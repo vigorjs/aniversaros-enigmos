@@ -4,6 +4,10 @@ import colors from "tailwindcss/colors";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -15,6 +19,11 @@ export default {
         dark: "#d51920",
       },
       blue: "#243F8F",
+      gray: {
+        light: "#f8f9fa",
+        DEFAULT: "#e9ecef",
+        dark: "#212529",
+      },
     },
     fontFamily: {
       sans: ["Lato", "sans-serif"],
