@@ -8,6 +8,9 @@ import Footer from "./components/footer/Footer"
 
 
 import OurTeam from "./components/ourteam/OurTeam";
+import Hero from "./components/hero/Hero";
+import Gallery from "./components/gallery/Gallery";
+import Quote from "./components/quotes/Quote";
 
 function App() {
   
@@ -25,11 +28,13 @@ function App() {
        <SpinnerLoadingScreen loading={loading} />
       <div className={`App ${loading ? 'hidden' : ''}`}>
         <Header/>
-        {/* <Hero/> */}
+        <Hero/>
         <About/>
+        <Gallery/>
+        <Quote/>
+        <OurTeam></OurTeam>
+        <Footer />
       </div>
-      <OurTeam></OurTeam>
-     <Footer />
     </>
   );
 }
