@@ -17,9 +17,9 @@ export default function Header() {
   }, []);
 
   return (
-    <>
+    <div>
       <header
-        className={` ${
+        className={`transition-colors duration-500 ${
           scrollPosition > 0
             ? "shadow-lg bg-white text-blue-800"
             : "bg-transparent text-white"
@@ -103,6 +103,6 @@ export default function Header() {
           </nav>
         </div>
       </header>
-    </>
+    </div>
   );
 }
