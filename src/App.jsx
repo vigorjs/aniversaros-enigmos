@@ -3,16 +3,16 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import OurTeam from "./components/ourteam/OurTeam";
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1 className='font-bold'>Nudros</h1>
-      </div>
+      <OurTeam></OurTeam>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
