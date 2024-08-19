@@ -7,7 +7,7 @@ function Hero() {
       <div className="h-screen w-screen absolute top-0 left-0">
         <video autoPlay loop muted className="h-full w-full object-cover">
           <source
-            src="https://videos.pexels.com/video-files/18035786/18035786-hd_1920_1080_30fps.mp4"
+            src="https://res.cloudinary.com/leviis/video/upload/v1724050024/aniversasos/rbfmyzusppnkrendusuo.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.

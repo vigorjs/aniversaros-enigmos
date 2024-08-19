@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={` ${
+        className={` z-50 ${
           scrollPosition > 0
             ? "shadow-lg bg-white text-blue-800"
             : "bg-transparent text-white"
