@@ -12,8 +12,9 @@ import Hero from "./components/hero/Hero";
 import Gallery from "./components/gallery/Gallery";
 import Quote from "./components/quotes/Quote";
 
+
+
 function App() {
-  
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
