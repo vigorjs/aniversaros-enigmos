@@ -1,6 +1,7 @@
 import React from "react";
 import images from "../../assets/images/images";
 import { useRef, useState } from "react";
+import pattern from "../../assets/image.png";
 
 const Gallery = () => {
   const [index, setIndex] = useState(0);
@@ -24,14 +25,20 @@ const Gallery = () => {
 
   return (
     <div>
-      <section className="bg-gray-100 py-8">
-        <div className="container mx-auto px-4">
+      <section className="bg-gray-500 py-8">
+        <div className="px-4">
           <h2 className="text-2xl font-bold text-center mb-8">
             Horizontal Gallery
           </h2>
-          <div className="container mx-auto px-4">
-            <div className="flex justify-center">
-              <div className="relative group w-[80%] h-[600px]">
+          <div className="px-4 flex justify-center">
+            <div
+              style={{
+                backgroundImage: `url(${pattern})`,
+                backgroundSize: "cover",
+              }}
+              className={`w-[70%] h-[650px] h rounded-lg shadow-md p-5 flex justify-center`}
+            >
+              <div className="relative group w-[100%]">
                 <img
                   src={images[imageKeys[index]]}
                   alt={`Gallery ${index + 1}`}
@@ -74,7 +81,7 @@ const Gallery = () => {
                       onClick={() => setIndex(i)}
                     >
                       <img
-                        loading="lazy"
+                        loading="eager"
                         src={images[key]}
                         alt={`Gallery ${i + 1}`}
                         className="w-full h-full object-cover rounded-lg shadow-md"

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import logo from "../../assets/enigma.png";
+import pattern from '../../assets/image.png';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,15 +25,16 @@ export default function Header() {
           scrollPosition > 0
             ? "shadow-lg bg-white text-blue-800"
             : "bg-transparent text-white"
-        } w-full fixed top-0 ${
+        } w-full fixed z-10 top-0 ${
           scrollPosition > 0 ? "bg-white" : "bg-transparent"
         }`}
       >
+        
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo */}
           <div className="text-2xl font-bold flex">
             <a href="/" className="w-48 hover:text-gray-400">
-              <img src="./src/assets/enigma.png" />
+              <img src={logo} />
             </a>
           </div>
 
