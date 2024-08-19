@@ -1,7 +1,6 @@
 // import Gallery from "./components/gallery/Gallery";
 import Header from "./components/header/Header";
-
-import Hero from "./components/hero/Hero";
+// import Quote from "./components/quotes/Quote";
 import { useState, useEffect } from "react";
 import SpinnerLoadingScreen from "./components/ui/SpinnerLoading/SpinnerLoadingScreen";
 import About from "./components/about/About";
@@ -24,7 +23,7 @@ function App() {
        <SpinnerLoadingScreen loading={loading} />
       <div className={`App ${loading ? 'hidden' : ''}`}>
         <Header/>
-        <Hero/>
+        {/* <Hero/> */}
         <About/>
       </div>
      <Footer />
