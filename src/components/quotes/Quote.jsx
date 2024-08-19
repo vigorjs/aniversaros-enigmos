@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { QUOTES } from "../../constants/QUOTES";
 import Button from "../ui/Button";
+import JSConfetti from "js-confetti";
 
 function random() {
   return Math.floor(Math.random() * QUOTES.length);
@@ -8,6 +9,8 @@ function random() {
 
 function Quote() {
   const [randomIndex, setRandomIndex] = useState(random);
+  const jsConfetti = new JSConfetti();
+
   const { author, imageUrl, quote } = QUOTES[randomIndex];
 
   function randomizeQuoteHandler() {
@@ -16,6 +19,9 @@ function Quote() {
       currentRandom = random();
     }
     setRandomIndex(currentRandom);
+
+    // Trigger confetti when the button is clicked
+    jsConfetti.addConfetti();
   }
 
   return (
