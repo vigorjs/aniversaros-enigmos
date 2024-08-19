@@ -25,11 +25,11 @@ const Gallery = () => {
 
   return (
     <div>
-      <section className="bg-gray-500 py-8">
+      <section className="bg-white py-8">
         <div className="px-4">
-          <h2 className="text-2xl font-bold text-center mb-8">
-            Horizontal Gallery
-          </h2>
+          <h1 className="text-4xl font-bold text-center mb-8">
+            Gallery
+          </h1>
           <div className="px-4 flex justify-center">
             <div
               style={{
@@ -68,7 +68,7 @@ const Gallery = () => {
             </button>
 
             {/* Carousel Container */}
-            <div className="flex justify-center my-5 px-4">
+            <div className="flex justify-center my-10 px-4">
               <div
                 className="overflow-x-auto w-full scrollbar-hide relative"
                 ref={carouselRef}

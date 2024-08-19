@@ -8,7 +8,7 @@ export default function Header() {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
-    setScrollPosition(window.scrollY); // atau document.documentElement.scrollTop
+    setScrollPosition(window.scrollY); 
   };
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function Header() {
         `}
       >
         
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center h-[100px]">
+        <div className="container mx-auto px-4 flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="text-2xl font-bold flex">
             <a href="/" className="w-48 hover:text-gray-400 duration-500">
