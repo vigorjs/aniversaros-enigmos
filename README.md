@@ -17,7 +17,7 @@ https://github.com/vigorjs/aniversaros-enigmos.git
 > Pembagian Tugas
 
 ```sh
-https://docs.google.com/spreadsheets/d/1evtSlzDGTZComo2ZCJ3T_iGdLazIsdywElP98KkGRSM/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1K3nGm2mE4BDbVTG2z8ozyXHgTcvzzrYMFzW0gvMuBm8/edit?hl=id&gid=0#gid=0
 ```
 
 ## Cara Install Project
