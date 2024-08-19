@@ -5,6 +5,10 @@ import Hero from "./components/hero/Hero";
 import { useState, useEffect } from "react";
 import SpinnerLoadingScreen from "./components/ui/SpinnerLoading/SpinnerLoadingScreen";
 import About from "./components/about/About";
+import React from "react"
+import Footer from "./components/footer/Footer"
+
+
 function App() {
   
   const [loading, setLoading] = useState(true);
@@ -24,6 +28,7 @@ function App() {
         <Hero/>
         <About/>
       </div>
+     <Footer />
     </>
   );
 }
