@@ -23,17 +23,17 @@ function Quote() {
       <section className="bg-gray-light py-20">
         <div className="container flex flex-col items-center gap-7">
           {/* Quotes */}
-          <div className="container flex items-center gap-3">
-            <blockquote className="flex flex-col gap-2 px-52">
-              <p className="text-lg">{quote}</p>
+          <div className="container flex items-center gap-20 justify-center">
+            <blockquote className="flex flex-col gap-2">
+              <p className="text-4xl">{quote}</p>
               <footer className="text-base">&mdash; {author}</footer>
             </blockquote>
 
-            <div className="w-[300px] h-[200px]">
+            <div className="w-[400px] h-[300px]">
               <img
                 src={imageUrl}
                 alt={author}
-                className="inset-0 min-w-[300px] w-full h-full"
+                className="inset-0 min-w-[400px] w-full h-full"
               />
             </div>
           </div>

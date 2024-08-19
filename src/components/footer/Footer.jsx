@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -13,14 +11,14 @@ function Footer() {
                             <img className="w-[300px]" src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/D2JV4H4VV8JXWGF39KAXUEBGHP4CA9SPG2GAHLEU-654b3e3c.png"></img>
                         </div>
                         <div>
-                            <img style={{ marginLeft: 30, marginTop:-30, width: 200 }} src="https://png.pngtree.com/png-vector/20220723/ourmid/pngtree-siluet-kemerdekaan-indonesia-or-indonesian-independence-day-silhouette-png-image_6033863.png"></img>
+                            <img className="relative" src="https://png.pngtree.com/png-vector/20220723/ourmid/pngtree-siluet-kemerdekaan-indonesia-or-indonesian-independence-day-silhouette-png-image_6033863.png"></img>
                         </div>
                     </div>
 
                     <div className="flex gap-10">
                         <div className="w-[400px]">
-                            <p className="text-sm">
                             <h6 className="font-bold ">About Us</h6>
+                            <p className="text-sm">
                                 Established in 2017 as part of PT. Square Techno Indonesia, then evolved into PT.
                                 Enigma Cipta Humanika in August 2019. We specialized in IT Bootcamp and Talent
                                 Management, offering two key programs: Talent as a Service and Training as a Service.

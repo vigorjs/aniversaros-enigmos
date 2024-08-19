@@ -16,6 +16,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ["'Playfair Display'", "serif"],
+      sans: ["Lato", "sans-serif"]
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -51,6 +55,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        red: {
+          DEFAULT: "#ed1c24"
+        }
       },
       borderRadius: {
         lg: "var(--radius)",

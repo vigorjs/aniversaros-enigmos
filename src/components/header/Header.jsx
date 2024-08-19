@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import logo from "../../assets/enigma.png";
-import pattern from '../../assets/image.png';
+import logo1 from '../../assets/HutRiLogoPutih.png';
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,18 +24,19 @@ export default function Header() {
       <header
         className={`transition-colors duration-500 ${
           scrollPosition > 0
-            ? "shadow-lg bg-white text-blue-800"
+            ? "shadow-lg bg-white text-red-800 "
             : "bg-transparent text-white"
         } w-full fixed z-10 top-0 ${
           scrollPosition > 0 ? "bg-white" : "bg-transparent"
-        }`}
+        }
+        `}
       >
         
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-3 flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="text-2xl font-bold flex">
-            <a href="/" className="w-48 hover:text-gray-400">
-              <img src={logo} />
+            <a href="/" className="w-48 hover:text-gray-400 duration-500">
+            {scrollPosition > 0 ? <img src={logo} /> : <img src={logo1} /> }
             </a>
           </div>
 
@@ -65,7 +67,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#home"
-                  className="block px-4 py-2 hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
+                  className="block px-4 py-2 hover:bg-red-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Home
                 </a>
@@ -73,7 +75,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#about"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
+                  className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   About
                 </a>
@@ -81,7 +83,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#Quotes"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
+                  className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Quotes
                 </a>
@@ -89,15 +91,15 @@ export default function Header() {
               <li>
                 <a
                   href="/#Gallery"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
+                  className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
-                  Galerry
+                  Gallery
                 </a>
               </li>
               <li>
                 <a
                   href="/#Team"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
+                  className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Our Team
                 </a>
