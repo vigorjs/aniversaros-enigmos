@@ -1,5 +1,5 @@
 function Hero() {
-  const text = "Dirgahayu 79 Tahun indonesia merdeka";
+  const text = "Merdeka.";
 
   return (
     <div className="h-screen relative">
@@ -16,8 +16,9 @@ function Hero() {
 
       {/* Overlay */}
       <div className="h-full w-full absolute top-0 left-0 bg-gradient-to-b from-black to-black opacity-50 flex flex-col justify-center">
-        <div className="container mx-auto px-4">
-          <h1 className="text-red-light text-4xl">{text}</h1>
+        <div className="container mx-auto px-4 items-center justify-center">
+          <h1 className="text-red text-center text-8xl font-black">79<sup>th</sup> {text}</h1>
+          <h1 className="text-white text-center text-3xl font-bold">Dirgahayu Indonesiaku, Berjayalah Enigmaku</h1>
         </div>
       </div>
     </div>
