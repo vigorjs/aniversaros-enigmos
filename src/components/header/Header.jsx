@@ -17,7 +17,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="w-full h-[5000px] relative">
+    <>
       <header
         className={` ${
           scrollPosition > 0
@@ -103,6 +103,6 @@ export default function Header() {
           </nav>
         </div>
       </header>
-    </div>
+    </>
   );
 }
