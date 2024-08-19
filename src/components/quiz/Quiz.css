@@ -1,0 +1,14 @@
+.img-quiz-enter {
+  opacity: 0;
+}
+.img-quiz-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms;
+}
+.img-quiz-exit {
+  opacity: 1;
+}
+.img-quiz-exit-active {
+  opacity: 0;
+  transition: opacity 0;
+}

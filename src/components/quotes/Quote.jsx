@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { QUOTES } from "../../constants/QUOTES";
-import Button from "../ui/Button";
+import JSConfetti from "js-confetti";
+import { Button } from "../ui/button";
 
 function random() {
   return Math.floor(Math.random() * QUOTES.length);
@@ -8,6 +9,8 @@ function random() {
 
 function Quote() {
   const [randomIndex, setRandomIndex] = useState(random);
+  const jsConfetti = new JSConfetti();
+
   const { author, imageUrl, quote } = QUOTES[randomIndex];
 
   function randomizeQuoteHandler() {
@@ -16,12 +19,15 @@ function Quote() {
       currentRandom = random();
     }
     setRandomIndex(currentRandom);
+
+    // Trigger confetti when the button is clicked
+    jsConfetti.addConfetti();
   }
 
   return (
     <>
-      <section className="bg-gray-light py-20">
-        <div className="container flex flex-col items-center gap-7">
+      <section className="bg-[#00072D] py-20">
+        <div className="container flex flex-col items-center gap-7 bg-[#FFFFFF] p-5 rounded-2xl">
           {/* Quotes */}
           <div className="container flex items-center gap-20 justify-center">
             <blockquote className="flex flex-col gap-2">
@@ -40,7 +46,7 @@ function Quote() {
 
           {/* actions */}
           <div>
-            <Button onClick={randomizeQuoteHandler} variant="outline-red">
+            <Button onClick={randomizeQuoteHandler} variant="destructive">
               Generate Random Quotes
             </Button>
           </div>

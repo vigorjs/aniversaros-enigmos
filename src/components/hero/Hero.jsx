@@ -1,5 +1,4 @@
 function Hero() {
-  const text = "Merdeka.";
 
   return (
     <div className="h-screen relative">
