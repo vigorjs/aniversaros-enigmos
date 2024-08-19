@@ -6,12 +6,8 @@
 .footer{
     moz-box-shadow: inset 0px 10px 15px -7px rgba(255, 0, 0, 0.2);
     box-shadow: inset 0px 10px 15px -7px rgba(255, 0, 0, 0.15);
-    /* flex: 1; */
     background-color: rgb(255, 255, 255);
-    /* height: 280px; */
     padding-top: 20px;
-    /* flex-direction: column; */
-    /* position: relative; */
 }
 
 .h6 {

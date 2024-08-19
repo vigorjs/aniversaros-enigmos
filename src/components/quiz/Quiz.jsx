@@ -106,7 +106,7 @@ function Quiz() {
       </div>
 
       <div className="flex flex-col justify-center items-center gap-3">
-        {isAnswered && isRightAnswer && <p className="text-4xl text-blue">Betul</p>}
+        {isAnswered && isRightAnswer && <p className="text-4xl text-[#051650]">Betul</p>}
         {isAnswered && !isRightAnswer && <p className="text-4xl text-red font-semibold">Salah</p>}
 
         {isAnswered && (

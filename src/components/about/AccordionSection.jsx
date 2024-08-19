@@ -12,7 +12,7 @@ import {
     
     const AccordionSection = () => {
     return (
-    <div className="relative mb-[150px] mt-10">
+    <div className="relative pb-[100px] pt-10 bg-[#FFFFFF]">
         <div className='flex flex-col lg:flex-row justify-between items-center w-full px-2 md:px-4 lg:px-8 xl:px-0 lg:max-w-7xl mx-auto space-x-0 lg:space-x-3'>
             {/* Content */}
             <div className='w-full px-4 lg:w-1/2 pt-10'>
