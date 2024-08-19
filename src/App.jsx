@@ -3,14 +3,16 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import React from "react"
+import Footer from "./components/footer/Footer"
+
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1 className='font-bold'>Nudros</h1>
-      </div>
+     <Footer />
     </>
   )
 }
