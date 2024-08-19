@@ -62,7 +62,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#home"
-                  className="block px-4 py-2 hover:bg-blue-900 hover:text-blue-50 rounded"
+                  className="block px-4 py-2 hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Home
                 </a>
@@ -70,7 +70,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#about"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded"
+                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   About
                 </a>
@@ -78,7 +78,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#Quotes"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded"
+                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Quotes
                 </a>
@@ -86,7 +86,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#Gallery"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded"
+                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Galerry
                 </a>
@@ -94,7 +94,7 @@ export default function Header() {
               <li>
                 <a
                   href="/#Team"
-                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded"
+                  className="block px-4 py-2  hover:bg-blue-900 hover:text-blue-50 rounded text-lg font-medium"
                 >
                   Our Team
                 </a>

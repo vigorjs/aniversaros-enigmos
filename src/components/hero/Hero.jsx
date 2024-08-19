@@ -16,8 +16,9 @@ function Hero() {
 
       {/* Overlay */}
       <div className="h-full w-full absolute top-0 left-0 bg-gradient-to-b from-black to-black opacity-50 flex flex-col justify-center">
-        <div className="container mx-auto px-4">
-          <h1 className="text-red-light text-4xl">{text}</h1>
+        <div className="container mx-auto px-4 flex items-center justify-center">
+          <img className="" src="https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-hut-ri-79-official-logo-in-2024-vector-png-image_9181623.png"></img>
+          <h1 className="text-white text-4xl  text-6xl font-bold">{text}</h1>
         </div>
       </div>
     </div>
