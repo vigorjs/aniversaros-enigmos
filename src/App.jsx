@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import { useState, useEffect } from "react";
 import SpinnerLoadingScreen from "./components/ui/SpinnerLoading/SpinnerLoadingScreen";
+import About from "./components/about/About";
 
 function App() {
   
@@ -18,10 +19,11 @@ function App() {
 
   return (
     <>
-      {loading && <SpinnerLoadingScreen loading={loading} />}
+       <SpinnerLoadingScreen loading={loading} />
       <div className={`App ${loading ? 'hidden' : ''}`}>
-        <Header/>
-        <Hero/>
+        {/* <Header/>
+        <Hero/> */}
+        <About/>
       </div>
     </>
   );

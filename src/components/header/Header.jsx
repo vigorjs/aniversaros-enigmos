@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from '../../assets/HutRiLogoPutih.png';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Header() {
           {/* Logo */}
           <div className="text-2xl font-bold flex">
             <a href="/" className="w-48 hover:text-gray-400">
-              <img src="./src/assets/enigma.png" />
+              <img src={logo} />
             </a>
           </div>
 
