@@ -1,4 +1,3 @@
-import React from "react";
 import images from "../../assets/images/images";
 import { useRef, useState } from "react";
 import pattern from "../../assets/image.png";
@@ -25,10 +24,10 @@ const Gallery = () => {
 
   return (
     <div>
-      <section className="bg-gray-500 py-8">
+      <section className="bg-[#FFFFFF] py-8">
         <div className="px-4">
-          <h2 className="text-2xl font-bold text-center mb-8">
-            Horizontal Gallery
+          <h2 className="text-4xl font-bold text-center mb-8 ">
+            Independence Day
           </h2>
           <div className="px-4 flex justify-center">
             <div

@@ -4,14 +4,11 @@ function Footer() {
     return (<>
 
         <div className={`${styles.footer} `}>
-            <div className="container top-bot">
+            <div className="container ">
                 <div className="flex justify-between">
                     <div className="flex">
                         <div>
                             <img className="w-[300px]" src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/D2JV4H4VV8JXWGF39KAXUEBGHP4CA9SPG2GAHLEU-654b3e3c.png"></img>
-                        </div>
-                        <div>
-                            <img className="relative" src="https://png.pngtree.com/png-vector/20220723/ourmid/pngtree-siluet-kemerdekaan-indonesia-or-indonesian-independence-day-silhouette-png-image_6033863.png"></img>
                         </div>
                     </div>
 
@@ -40,7 +37,8 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <p className="flex items-center bg-[#ED1C24] justify-center color-white h-[50px]">Aniversaros Enigmos © 2024 | All rights reserved</p>
+            <hr className="mt-[10px]"/>
+            <p className="flex items-center bg-[#FFFFFF] justify-center h-[50px] mt-[2px]">Aniversaros Enigmos © 2024 | All rights reserved</p>
         </div>
     </>)
 

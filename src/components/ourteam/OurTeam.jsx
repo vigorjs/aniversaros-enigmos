@@ -38,10 +38,10 @@ const TEAM = [
 
 function OurTeam() {
   return (
-    <div className="bg-[#FFF5E1]">
+    <div className="bg-[#00072D]">
     <div className="container mx-auto py-20 px-5 ">
       <div className="pb-10">
-        <h1 className="text-center text-4xl font-bold text-[#ED1C24] mb-10">
+        <h1 className="text-center text-4xl font-bold text-[#FFFFFF] mb-10">
           Meet Our Team
         </h1>
       </div>
@@ -49,7 +49,7 @@ function OurTeam() {
         {TEAM.map((item, id) => (
           <a href={item.gitlink} target="_blank" key={id}>
             <div
-              className="team-member text-center bg-white shadow-md rounded-sm transform transition-transform hover:scale-105 hover:shadow-1xl"
+              className="team-member text-center bg-[#FFFFFF] shadow-md rounded-sm transform transition-transform hover:scale-105 hover:shadow-1xl"
             >
               <img
                 className="w-full h-56 object-cover"
