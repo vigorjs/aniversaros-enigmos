@@ -2,35 +2,35 @@ const TEAM = [
   {
     id: 1,
     imageUrl:
-      "https://awsimages.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620",
+      "https://www.kemhan.go.id/wp-content/uploads/2019/10/tmp_6644-20191028_142938-770056681.jpg",
     name: "Dova",
     gitlink: "https://github.com/saydova",
   },
   {
     id: 2,
     imageUrl:
-      "https://awsimages.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620",
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/President_Abdurrahman_Wahid_-_Indonesia.jpg",
     name: "Nurdi",
     gitlink: "https://github.com/nurdiansyah15",
   },
   {
     id: 3,
     imageUrl:
-      "https://awsimages.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/B._J._Habibie%2C_President_of_Indonesia_portrait.jpg",
     name: "Virgo",
     gitlink: "https://github.com/vigorjs",
   },
   {
     id: 4,
     imageUrl:
-      "https://awsimages.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Joko_Widodo_2019_official_portrait.jpg/220px-Joko_Widodo_2019_official_portrait.jpg",
     name: "Levi",
     gitlink: "https://github.com/leviis10",
   },
   {
     id: 5,
     imageUrl:
-      "https://awsimages.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620",
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/President_Megawati_Sukarnoputri_-_Indonesia.jpg",
     name: "Nabila",
     gitlink: "https://github.com/nabilasucisa",
   },
