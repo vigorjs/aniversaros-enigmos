@@ -49,7 +49,7 @@ function Quiz() {
   }
 
   return (
-    <div className="container py-16 flex flex-col gap-12">
+    <div id="guess" className="container py-52 flex flex-col gap-12">
       <div className="flex gap-10">
         {/* img */}
 

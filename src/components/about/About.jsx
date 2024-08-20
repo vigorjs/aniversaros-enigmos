@@ -9,7 +9,7 @@ import {
 function About() {
   return (
     <div>
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 my-10 sm:my-20 flex flex-col lg:flex-row justify-center gap-16">
+        <section id="about" className="max-w-7xl mx-auto px-4 sm:px-6 my-52 flex flex-col lg:flex-row justify-center gap-16 scroll-mt-72">
             <div className="flex-1 space-y-4 sm:space-y-6">
                 <p className="text-[#4A7D6D] font-semibold">Markashima Studio</p>
                 <h2 className="text-4xl sm:text-5xl font-semibold leading-tight">Were a Team of Creatives Ready to Capture Your Moment</h2>

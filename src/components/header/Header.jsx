@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import logo from "../../assets/whiteEnigma.png";
-import logo1 from '../../assets/HutRiLogoPutih.png';
-
+import logo1 from "../../assets/HutRiLogoPutih.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
-    setScrollPosition(window.scrollY); 
+    setScrollPosition(window.scrollY);
   };
 
   useEffect(() => {
@@ -31,12 +30,11 @@ export default function Header() {
         }
         `}
       >
-        
         <div className="container mx-auto px-4 flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="text-2xl font-bold flex">
             <a href="/" className="w-48 hover:text-gray-400 duration-500">
-            {scrollPosition > 0 ? <img src={logo} /> : <img src={logo1} /> }
+              {scrollPosition > 0 ? <img src={logo} /> : <img src={logo1} />}
             </a>
           </div>
 
@@ -82,7 +80,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/#Quotes"
+                  href="/#quotes"
                   className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-semibold"
                 >
                   Quotes
@@ -90,7 +88,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/#Gallery"
+                  href="/#gallery"
                   className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-semibold"
                 >
                   Gallery
@@ -98,7 +96,15 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/#Team"
+                  href="/#guess"
+                  className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-semibold"
+                >
+                  Guess
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#team"
                   className="block px-4 py-2  hover:bg-red-900 hover:text-blue-50 rounded text-lg font-semibold"
                 >
                   Our Team

@@ -24,7 +24,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <section className="bg-white py-8">
+      <section id="gallery" className="bg-white py-8 scroll-mt-24">
         <div className="px-4">
           <h2 className="text-4xl font-bold text-center mb-8 ">
             Independence Day
@@ -35,7 +35,7 @@ const Gallery = () => {
                 backgroundImage: `url(${pattern})`,
                 backgroundSize: "cover",
               }}
-              className={`w-[70%] h-[650px] h rounded-lg shadow-md p-5 flex justify-center`}
+              className={`w-[65%] h-[550px] h rounded-lg shadow-lg p-5 flex justify-center`}
             >
               <div className="relative group w-[100%]">
                 <img
@@ -76,7 +76,7 @@ const Gallery = () => {
                   {imageKeys.map((key, i) => (
                     <div
                       key={i}
-                      className="min-w-[200px] h-40 flex-shrink-0 relative"
+                      className="min-w-[200px] h-28 flex-shrink-0 relative"
                       onClick={() => setIndex(i)}
                     >
                       <img

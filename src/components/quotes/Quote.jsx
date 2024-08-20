@@ -26,7 +26,7 @@ function Quote() {
 
   return (
     <>
-      <section className="bg-[#00072D] py-20">
+      <section id="quotes" className="bg-[#00072D] py-52 scroll-mt-24">
         <div className="container flex flex-col items-center gap-7 bg-[#FFFFFF] p-5 rounded-2xl">
           {/* Quotes */}
           <div className="container flex items-center gap-20 justify-center">
