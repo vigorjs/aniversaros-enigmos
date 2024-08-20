@@ -5,7 +5,6 @@ import "./Quiz.css";
 import { Button } from "../ui/button";
 import JSConfetti from "js-confetti";
 
-
 const jsConfetti = new JSConfetti();
 
 function randomizeQuizIndex() {
@@ -27,13 +26,13 @@ function Quiz() {
     if (index === answer) {
       setIsRightAnswer(true);
       jsConfetti.addConfetti({
-        emojis: ['🦄'],
+        emojis: ["🦄"],
         emojiSize: 100,
       });
       return;
     }
     jsConfetti.addConfetti({
-      emojis: ['NUDROS'],
+      emojis: ["NUDROS"],
       emojiSize: 100,
     });
   }
@@ -78,7 +77,7 @@ function Quiz() {
           >
             <img
               ref={misteryImgRef}
-              className="absolute w-full h-full"
+              className="absolute w-[400px] h-full"
               src={quizQuestion.misteryImgUrl}
               alt="silhoute"
             />
@@ -92,7 +91,7 @@ function Quiz() {
           <div className="flex gap-10">
             {quizQuestion.options.map((value, i) => (
               <Button
-                disabled = {isAnswered}
+                disabled={isAnswered}
                 size={"lg"}
                 variant={"destructive"}
                 onClick={() => answerHandler(i, quizQuestion.answer)}
@@ -103,12 +102,15 @@ function Quiz() {
             ))}
           </div>
         </div>
-
       </div>
 
       <div className="flex flex-col justify-center items-center gap-3">
-        {isAnswered && isRightAnswer && <p className="text-4xl text-[#051650]">Betul</p>}
-        {isAnswered && !isRightAnswer && <p className="text-4xl text-red font-semibold">Salah</p>}
+        {isAnswered && isRightAnswer && (
+          <p className="text-4xl text-[#051650]">Betul</p>
+        )}
+        {isAnswered && !isRightAnswer && (
+          <p className="text-4xl text-red font-semibold">Salah</p>
+        )}
 
         {isAnswered && (
           <Button className="" onClick={resetHandler}>

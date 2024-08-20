@@ -29,7 +29,7 @@ function Quote() {
       <section id="quotes" className="bg-[#00072D] py-52 scroll-mt-24 px-2">
         <div className="container flex flex-col items-center gap-7 bg-[#FFFFFF] p-5 rounded-2xl py-14">
           {/* Quotes */}
-          <div className="container flex flex-col 2xl:flex-row items-center gap-20 justify-center">
+          <div className="container flex flex-col xl:flex-row items-center gap-20 justify-center">
             <blockquote className="flex flex-col gap-2">
               <p className="text-4xl">{quote}</p>
               <footer className="text-base">&mdash; {author}</footer>
