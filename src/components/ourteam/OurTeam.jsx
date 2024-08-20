@@ -2,35 +2,35 @@ const TEAM = [
   {
     id: 1,
     imageUrl:
-      "https://www.kemhan.go.id/wp-content/uploads/2019/10/tmp_6644-20191028_142938-770056681.jpg",
+      "https://res.cloudinary.com/dje00tc5v/image/upload/v1724120075/6206336607712298134_sudjpr.jpg",
     name: "Dova",
     gitlink: "https://github.com/saydova",
   },
   {
     id: 2,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/35/President_Abdurrahman_Wahid_-_Indonesia.jpg",
+      "https://res.cloudinary.com/dje00tc5v/image/upload/v1724119874/6206336607712298130_uhs9rf.jpg",
     name: "Nurdi",
     gitlink: "https://github.com/nurdiansyah15",
   },
   {
     id: 3,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/2a/B._J._Habibie%2C_President_of_Indonesia_portrait.jpg",
+      "https://vigorjs.me/_next/image?url=%2Fassets%2Fimages%2Fabout-profile.jpg&w=640&q=75",
     name: "Virgo",
     gitlink: "https://github.com/vigorjs",
   },
   {
     id: 4,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Joko_Widodo_2019_official_portrait.jpg/220px-Joko_Widodo_2019_official_portrait.jpg",
+      "https://res.cloudinary.com/dje00tc5v/image/upload/v1724120260/6206336607712298135_cq4ykn.jpg",
     name: "Levi",
     gitlink: "https://github.com/leviis10",
   },
   {
     id: 5,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/8/88/President_Megawati_Sukarnoputri_-_Indonesia.jpg",
+      "https://res.cloudinary.com/dje00tc5v/image/upload/v1724119887/6206336607712298131_sapgns.jpg",
     name: "Nabila",
     gitlink: "https://github.com/nabilasucisa",
   },
