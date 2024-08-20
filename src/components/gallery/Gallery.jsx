@@ -35,7 +35,7 @@ const Gallery = () => {
                 backgroundImage: `url(${pattern})`,
                 backgroundSize: "cover",
               }}
-              className={`w-[65%] h-[550px] h rounded-lg shadow-lg p-5 flex justify-center`}
+              className={`w-[100%] lg:w-[70%] 2xl:w-[60%] h-[550px] h rounded-lg shadow-lg p-5 flex justify-center`}
             >
               <div className="relative group w-[100%]">
                 <img

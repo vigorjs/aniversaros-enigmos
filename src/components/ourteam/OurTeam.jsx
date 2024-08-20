@@ -50,7 +50,7 @@ function OurTeam() {
             <a href={item.gitlink} target="_blank" key={id}>
               <div className="team-member text-center bg-[#FFFFFF] shadow-md rounded-sm transform transition-transform hover:scale-105 hover:shadow-1xl">
                 <img
-                  className="w-full h-56 object-cover"
+                  className="w-[100%] h-56 object-cover"
                   src={item.imageUrl}
                   alt={item.name}
                 />
