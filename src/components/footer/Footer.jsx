@@ -5,7 +5,7 @@ function Footer() {
 
         <div className={`${styles.footer} `}>
             <div className="container ">
-                <div className="flex justify-between">
+                <div className="flex flex-col justify-between">
                     <div className="flex">
                         <div>
                             <img className="w-[300px]" src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/D2JV4H4VV8JXWGF39KAXUEBGHP4CA9SPG2GAHLEU-654b3e3c.png"></img>

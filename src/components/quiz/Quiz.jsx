@@ -49,11 +49,11 @@ function Quiz() {
   }
 
   return (
-    <div className="container py-16 flex flex-col gap-12">
-      <div className="flex gap-10">
+    <div id="guess" className="container py-52 flex flex-col gap-12">
+      <div className="flex flex-col lg:flex-row gap-10 items-center justify-center">
         {/* img */}
 
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[300px] flex justify-center">
           <CSSTransition
             nodeRef={coloredImgRef}
             in={isAnswered}
@@ -63,7 +63,7 @@ function Quiz() {
           >
             <img
               ref={coloredImgRef}
-              className="absolute w-full h-full"
+              className="absolute w-[400px] h-full object-cover"
               src={quizQuestion.coloredImgUrl}
               alt={quizQuestion.options[quizQuestion.answer]}
             />
@@ -86,7 +86,7 @@ function Quiz() {
         </div>
 
         {/* text */}
-        <div className="text-2xl flex flex-col justify-around w-full">
+        <div className="text-2xl flex flex-col justify-around items-center w-full gap-4 lg:gap-10">
           <p className="text-4xl">Siapakah dia?</p>
           <p>Clue: {quizQuestion.clue}</p>
           <div className="flex gap-10">
@@ -103,6 +103,7 @@ function Quiz() {
             ))}
           </div>
         </div>
+
       </div>
 
       <div className="flex flex-col justify-center items-center gap-3">
