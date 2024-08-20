@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* scrollbar.css */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .scrollbar-hide {
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
-  }
-  
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 @layer base {
   :root {
@@ -79,4 +81,3 @@
     @apply bg-background text-foreground;
   }
 }
-
